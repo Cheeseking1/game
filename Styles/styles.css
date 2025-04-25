@@ -54,7 +54,7 @@
     color:white
 }
 .box:hover {
-    background-color: lightgreen;
+    background-color: rgb(23, 56, 142);
 }
 .bigbox{
     display: flex;
@@ -83,4 +83,13 @@
 .win{
     font-size:100px;
     color:white;
+}
+.text{
+    color:white;
+    font-size:25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
 }

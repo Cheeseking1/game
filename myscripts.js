@@ -1,5 +1,5 @@
-//1: CurrentPlayer = X
-let CurrentPlayer = "x";
+//1: CurrentPlayer = 🧀
+let CurrentPlayer = "🧀";
 //2: Select all the boxes
 const boxes = document.querySelectorAll(".box");
 //3: When I cloick a box, I want something to happen
@@ -53,11 +53,11 @@ function boxClicked(event){
     }
     cell.textContent=CurrentPlayer;
     checkWinner();
-    if(CurrentPlayer=="x"){
-        CurrentPlayer="o";
+    if(CurrentPlayer=="🧀"){
+        CurrentPlayer="🍕";
     }
     else{
-        CurrentPlayer="x";
+        CurrentPlayer="🧀";
     }
 }
 function ResetGame(){
